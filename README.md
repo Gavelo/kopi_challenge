@@ -46,7 +46,7 @@ cp .env
 
 1. **Clona el repositorio**   
 ```bash
-git clone <your-repo>
+git clone git@github.com:Gavelo/kopi_challenge.git
 cd kopi-challenge
 ```   
 
