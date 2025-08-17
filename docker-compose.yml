@@ -1,0 +1,14 @@
+version: '3.8'
+services:
+  api:
+    build: . 
+    ports:
+      - "8000:8000" 
+    environment:
+      - REDIS_HOST=redis
+      - LLM_API_KEY=${LLM_API_KEY} 
+    depends_on:
+      - redis
+  
+  redis:
+    image: "redis:alpine" 
