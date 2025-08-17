@@ -39,6 +39,9 @@ Crea un archivo llamado `.env` en la raíz del proyecto. Puedes copiar el archiv
 ```bash
 cp .env
 ```
+Asegurate de obtener un API key de Gemini
+
+* [Instrucciones para obtener un API key](https://ai.google.dev/gemini-api/docs/api-key)
 
 ##  Cómo Empezar
 
