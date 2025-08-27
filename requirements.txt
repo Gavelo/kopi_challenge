@@ -3,3 +3,4 @@ uvicorn[standard]
 redis
 google-generativeai
 python-dotenv
+redis==5.0.1
